@@ -1,0 +1,294 @@
+
+
+*{
+    margin: 0vh;
+}
+
+/*designing the marginbox at the tope of the screen*/
+#marginbox{
+    background-color: #808080;
+    height: 2.5vh;
+    width: auto;
+}
+
+/*nav bar*/
+#navbar{
+    background-color: #808080;
+    height: 6.5vh;
+    width: auto;
+    padding: 1vh;
+}
+
+/*image used for logo*/
+#brandlogo img{
+    width: 6vh;
+    height: 6vh;
+    margin-left: 2vh;
+}
+
+/*name of logo*/
+#brandname{
+    font-family: 'Fahkwang', sans-serif;
+    color: rgb(255, 240, 240);
+    text-transform: uppercase;
+    position: absolute;
+    left: 10vh;
+    top: 5vh;
+    font-size: 1.25vw;
+}
+
+
+#linksgroup{
+    position: absolute;
+    left: 30vw;
+    top: 5vh;
+    width: 69vw;
+    height: 6vh;
+    border-radius: 20 pw;
+}
+
+/*links in footer*/
+.links{
+    display: inline;
+    font-family: 'Farro', sans-serif;
+    transition: .4s;
+    opacity: 0.8;
+    color: black;
+}
+
+/*magic when a mouse hovers it*/
+.links:hover{
+    transition: .4s;
+    opacity: 1;
+}
+
+
+.links a{
+    text-align: right;
+    float: right;
+    margin-top: 5px;
+    margin-left: .5vw;
+    margin-right: .5vw;
+    text-decoration: none;
+   
+}
+
+/*links in navbar*/
+#home, #conclusion, #references, #data, #aboutme{
+    background-color: gray;
+    text-transform: uppercase;
+    padding: 0.75vw;
+}
+
+
+#home a, #conclusion a, #references a, #data a, #aboutme a{
+    color: white;
+}
+
+
+#footer{
+    background-color: #808080;
+    padding: 1vh;
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+    height: 5vh;
+    width: 100%;
+}
+
+
+.socials img{
+    width: 4vh;
+    margin-right: 1vh;
+    opacity: .7;
+}
+
+
+#github{
+    position: fixed;
+    bottom: 1.25vh;
+    right: 2vh;
+
+}
+
+
+#ig{
+    position: fixed;
+    bottom: 1.25vh;
+    right: 7vh;
+}
+
+
+#twt{
+    position: fixed;
+    bottom: 1.25vh;
+    right: 12vh;
+}
+
+#fb{
+    position: fixed;
+    bottom: 1.25vh;    
+    right: 17vh;
+}
+
+
+
+/*content box*/
+.contentbox{
+    background-color: #ffffff;
+    width: 100%;
+    height: 85vh;
+}
+
+
+.contentbox img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+*/
+h1{
+    font-size: 2vw;
+    font-family: 'Archivo Black', sans-serif;
+    color: black;
+    margin-bottom: 1vw;
+}
+
+.bannertext{
+    width: 45%;
+    height: 75vh;
+    padding: 3vw;
+}
+
+/*setting up the header of my home page*/
+.bannertext h1{
+    font-size: 3.5vw;
+    font-family: 'Young Serif', serif;
+    color: black;
+}
+
+/*setting up the button or link of my home page for the next page*/
+.bannertext a{
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    background-color: maroon;
+    padding: 2vh;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 3vh;
+    font-weight: bold;
+    font-size: 1vw;
+    transition: .4s;
+}
+
+
+
+#coverimage {
+    width: 50vw;
+    height: 80vh;
+    position: absolute;
+    top: 11vh;
+    left: 50.5vw;
+}
+
+
+
+.intro {
+    height: 67vh;
+    padding: 1.5vw 3vw 3vw 3vw;
+}
+
+/*setting up the font style, color, and size for my discussion text in Conclusion page*/
+.intro p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25vw;
+    color: rgb(0, 0, 0);
+    margin-bottom: 1vw;
+    text-align: justify;
+}
+/*setting up the hegith and wdith of the pics for the variables*/
+.gender, .genderhistogram, .selfratingpiechart, .selfratinghistogram, .standartdeviation, .gwafromlastyearhistogram, .gwafromlastyearboxplot, .hoursusedontheinternetmean{
+    width: 30vw;
+    height: 30vh;
+}
+
+/*deisign for the refernee page*/
+#imagedesign1{
+    width: 10%;
+    height: 82vh;
+    position: absolute;
+    top: 11vh;
+    left: 0vw;
+}
+
+#imagedesign2{
+    width: 10%;
+    height: 82vh;
+    position: absolute;
+    top: 11vh;
+    right: 0vw;
+}
+
+/*designing the content box i will use for my sources page*/
+.sources {
+    position: absolute;
+    left: 10vw;
+    width: 73.5vw;
+    height: 77vh;
+    padding: 1.5vw 3vw 3vw 3vw;
+}
+
+
+
+.sources ol{
+    font-family: 'Montserrat', sans-serif;
+    font-size: .75vw;
+    color: rgb(0, 0, 0);
+}
+
+
+.sources li{
+    margin-bottom: 1vw;
+}
+
+
+.sources a, .sources p{
+    color: white;
+}
+
+#sectionlinks a{
+    display: block;
+    margin: 3vh 2vh 2vh 2vh;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1vw;
+    color: white;
+    text-decoration: none;
+}
+
+
+#sectionlinks .students,  #sectionlinks .faculty, #sectionlinks .ratio{
+    margin: 0vh 0vh 1vh 4vw;
+}
+/*about me page*/
+.abtme{
+    display: flex;
+    margin: 3vw;
+    text-align: left;
+    float: right;
+}
+.abtmeimg img{
+    width: 20vw;
+    height: 30vw;
+    float: left;
+    border: 2px solid black;
+}
+.abtme2{
+    float: right;
+    margin-left: 5vw;
+    font-size: large;
+    font-family: monospace;
+    font-style: italic;
+}
+
+
